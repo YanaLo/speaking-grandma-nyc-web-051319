@@ -18,7 +18,7 @@ def speak_to_grandma(phrase)
     # return "NO, NOT SINCE 1938!"
 end
 def speak_to_grandma(shout)
-shout == phrase.upcase
+shout == shout.upcase
     return "NO, NOT SINCE 1938!"
 
   # elsif phrase == "I LOVE YOU GRANDMA!"
